@@ -1,3 +1,7 @@
+#Comenzamos con python
+print("Hola Mundo de Python")
+
+
 for i in range(0,5):
     print(i,"hola")
 
