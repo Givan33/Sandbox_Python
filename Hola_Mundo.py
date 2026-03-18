@@ -1,6 +1,8 @@
 #Comenzamos con python
 print("Hola Mundo de Python")
 
+#Ejemplo de Print imprimiendo la misma cadena multiples veces
+print("Viva la vida"*5)
 
 for i in range(0,5):
     print(i,"hola")
