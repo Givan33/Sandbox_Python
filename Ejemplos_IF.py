@@ -1,6 +1,7 @@
-from random import *
+from random import * #Con esto se hace la importacion de todas las funciones del modulo random
+
 # Ejemplo con IF/ELSE sobre las calificaciones de una materia
-'''
+
 grade = float(input("What is the grade ? "))
 
 if grade >= 90:
@@ -16,11 +17,12 @@ else:
                 print("You get an D")
             else:
                 print("You get an F")
-'''
+
 print("\n")
 rand_val = randint(1,10)
 print("Random value generate is: "+ str(rand_val))
 
+# Ejemplo con IF/ELSE sobre las calificaciones de una materia
 
 if rand_val == 1:
     print("Number " + str(rand_val) + " is I in roman number")
